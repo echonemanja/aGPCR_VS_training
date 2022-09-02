@@ -13,7 +13,7 @@ During this session, the participants will learn:
 - How to critically analyze results of VS and molecular docking;
 - How to apply these protocols on any protein target of interest?
 
-We will work under Anaconda platform in order to keep this tutorial scalable and operating system independent as much as possible so participants could easily transfer learning material to their own research at home institution.
+We will work under Anaconda platform in order to keep this tutorial scalable and operating system independent as much as possible (so everyone could easily apply this code to their own research at home institutions).
 In order for everything to be flawless, participants should install all packages before training school following installation instructions bellow.
 ## Installation instructions
 1. Install the Anaconda (https://www.anaconda.com/products/distribution) using the instructions for your operating system (https://docs.anaconda.com/anaconda/install/). Installation should be straightforward. Before proceeding with next step, Linux and macOS users should not forget to restart a shell (terminal) after installation. 
