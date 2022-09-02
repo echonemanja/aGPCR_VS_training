@@ -36,5 +36,5 @@ In order for everything to be flawless, participants should install all packages
 6. Download Gypsum-DL from https://durrantlab.pitt.edu/gypsum-dl/
 
 
-<br> <b> That's all folks. It seems a lot but it can be done in 15 minutes. If you face any issues, please contact me thorough "Issues" section of this repository, or by Slack conversation.
+<br> <b> That's all folks. It seems a lot but all main steps could be done in 15 minutes. If you face any issues, please contact me thorough "Issues" section of this repository, or by Slack conversation.
   <br> Exact code for the case study with examples will be made available next week.
