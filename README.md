@@ -1,5 +1,9 @@
-# aGPCR_VS_training
-This is a material for the second part of Day 1 of the training school where we will get our hands dirty with some more advanced usage of open source toolkits for  docking-based virtual screening (VS).
+# Virtual Screening Case Study
+## Bioinformatics approaches in adhesion GPCR research
+![logo](https://user-images.githubusercontent.com/109313212/188150093-a309b31c-c12d-4d00-be4c-ad51d877599f.png)
+
+
+This is a material for Day 1 where we will get our hands dirty with some more advanced usage of open source toolkits for docking-based virtual screening (VS).
 
 This part of the training session is organized as a case study where practical application of virtual screening in aGPCR research will be introduced to the participants.
 
@@ -22,9 +26,9 @@ In order for everything to be flawless, participants should install all packages
 - `python -m ipykernel install --user --name=oddt`
 - `conda install py3dmol -c conda-forge`
 - `conda install -c conda-forge prolif`
-3. Replace (copy/paste) the file AutodockVina.py from your oddt environment with the same file available at this repository. AutodockVina.py file contains small fix of oddt which will probably be included in original distribution of oddt soon (so not a big deal).
-- Windows users: Copy (replace) AutodockVina.py at the location: C:\Users\Korisnik\anaconda3\envs\oddt\Lib\site-packages\oddt\docking (C:\Users\Korisnik should be replaced with name of your machine). If there is no such file at this location, use File Explorer to search for location.
-- Linux users: Copy (replace) AutodockVina.py at the location: /home/user/anaconda3/envs/oddt/lib/python3.9/site-packages/oddt/docking/ (/home/user/ should be replaced with name of your machine). In case you cannot locate, type `find /home/user/anaconda3/envs/ -iname AutodockVina.py` in your terminal. This command will locate the file.
+3. Replace (copy/paste) the file AutodockVina.py from your oddt environment with the same file available at this repository. AutodockVina.py file contains small fix of oddt which will probably be included in original distribution of oddt soon (so not a big deal but important for case study).
+- Windows users: Replace AutodockVina.py at the location: C:\Users\Korisnik\anaconda3\envs\oddt\Lib\site-packages\oddt\docking (C:\Users\Korisnik should be replaced with name of your machine). If there is no such file at this location, use File Explorer to search for location.
+- Linux users: Replace AutodockVina.py at the location: /home/user/anaconda3/envs/oddt/lib/python3.9/site-packages/oddt/docking/ (/home/user/ should be replaced with name of your machine). In case you cannot locate, type `find /home/user/anaconda3/envs/ -iname AutodockVina.py` in your terminal. This command will locate the file.
 - macOS users should follow instructions for Linux users, although I am not sure that location would be the same. Anyhow, everything should be under the /anaconda3 folder so in case you cannot locate manually (using search bar), type `find /path/to/anaconda3/folder/ -iname AutodockVina.py` in your terminal.
 - Special case are those who do not have admin privileges. In this case, location is hidden and could be accessed by terminal at ~/.conda/envs/oddt/lib/python3.9/site-packages/oddt/docking/AutodockVina.py (Linux users). If you cannot locate, please contact me.
 4. To check everything, type `jupyter notebook` in terminal with active oddt environment (`conda activate oddt` above). Jupyter notebook should open in your browser. 
