@@ -2,7 +2,7 @@
     "source": "./steroids.smi",
     "separate_output_files": false,
     "job_manager": "multiprocessing",
-    "output_folder": "../gypsum_dl_test_output_steroids/",
+    "output_folder": "./gypsum_dl_test_output_steroids/",
     "add_pdb_output": false,
     "skip_making_tautomers":true,
     "max_variants_per_compound": 2,
