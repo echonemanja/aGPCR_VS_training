@@ -15,6 +15,11 @@ During this session, the participants will learn:
 
 We will work under Anaconda platform in order to keep this tutorial scalable and operating system independent as much as possible (so everyone could easily apply this code to their own research at home institutions).
 In order for everything to be flawless, participants should install all packages before training school following installation instructions bellow.
+## Google Colab notebook
+As additional learning resource, we provide Google Colab notebook.
+If something goes wrong with installation, just switch to the Colab.
+https://colab.research.google.com/drive/18OzRUdbWoG3lSc3ZtItzBFQ_A-jXZpzp?usp=sharing
+
 ## Installation instructions
 1. Install the Anaconda (https://www.anaconda.com/products/distribution) using the instructions for your operating system (https://docs.anaconda.com/anaconda/install/). Installation should be straightforward. Before proceeding with next step, Linux and macOS users should not forget to restart a shell (terminal) after installation. 
 2. Open the terminal (for Windows users open Anaconda Powershell Prompt) and type following commands (line by line):
@@ -35,6 +40,3 @@ In order for everything to be flawless, participants should install all packages
 5. Install Marvin suite (https://chemaxon.com/products/marvin) (it requires registration, but it is free for academics and offers 2 months renewable trial licenses for non-academics). This is not obligatory step, but useful.
 6. Download Gypsum-DL from https://durrantlab.pitt.edu/gypsum-dl/
 
-
-<br> <b> That's all folks. It seems a lot but all main steps could be done in 15 minutes. If you face any issues, please contact me thorough "Issues" section of this repository, or by Slack conversation.
-  <br> Exact code for the case study with examples will be made available next week.
